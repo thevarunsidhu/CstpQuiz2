@@ -71,7 +71,7 @@ struct ContentView: View {
                 
                 Button(action:{
                     let sAge: Int = Int(age) ?? 0
-                    student = Student(name: name, age: sAge, movie: favMovie)
+                    student = Student(name: name, age: sAge, favMovie: favMovie)
                     submit.toggle()},
                     label: {
                         Text("Submit")
